@@ -3,9 +3,16 @@ from os import system
 system("cls")
 
 elsovaltozo = 12
+print(type(elsovaltozo))
 
-print(elsovaltozo)
+elsovaltozo = "változó"
+print(type(elsovaltozo))
 
-elsovaltozo = "A 10_a a legjobb"
+elsovaltozo = "12.35"
+print(type(elsovaltozo))
 
-print(elsovaltozo)
+elsovaltozo = True
+print(type(elsovaltozo))
+
+elsovaltozo = [1, 2]
+print(type(elsovaltozo))

@@ -2,3 +2,4 @@ from os import system
 system("cls)
 3.memóriakezelés, minden infó változókban eltárolva.
 típusfüggetlen => dinamikus memóriakezelés
+5. használt beépítet típusok: str, int, float, list, bool
