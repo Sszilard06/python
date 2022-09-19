@@ -3,3 +3,5 @@ system("cls)
 3.memóriakezelés, minden infó változókban eltárolva.
 típusfüggetlen => dinamikus memóriakezelés
 5. használt beépítet típusok: str, int, float, list, bool
+6. Explicit konverzió: Én magam írom be a kódba a típusváltoztatást pl. szam = int (bemeneti érték)
+7. Ebben az esetben a beolvasott sztring értékét alakítom egész számma.

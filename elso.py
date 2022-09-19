@@ -1,24 +1,13 @@
 from os import system
-import string
 
 system("cls")
 
-elsoValtozo= 12
 
-# string konkatenáció
-kiir_1 = "A változó értéke. " + str (elsoValtozo)
-print(kiir_1)
+# 2. feladat: prog_alapf.3
 
-kiir_1 = "A változó értéke. " + str (elsoValtozo)
-print(kiir_1)
+#explicit típuskonverzió 
+szam = int (input("kérek egy számot: "))
 
-kiir_1 = "A változó értéke: {}".format (elsoValtozo)
-print(kiir_1)
+kiir = f"A szám: {szam} és kétszerese {2 * szam}"
 
-# formatált sztring 2.verzió
-kiir_1 = f"A változó értéke: {elsoValtozo}"
-print(kiir_1)
-
-# formatált sztring 1.verzió
-kiir_1 = "A változó értéke: {1}" .format (elsoValtozo)
-print(kiir_1)
+print (kiir)
