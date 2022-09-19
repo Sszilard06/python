@@ -1,8 +1,3 @@
-from os import system
-import string
-
-system("cls")
-
 elsoValtozo= 12
 
 # string konkatenáció
