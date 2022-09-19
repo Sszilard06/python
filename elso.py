@@ -2,17 +2,8 @@ from os import system
 
 system("cls")
 
-elsovaltozo = 12
-print(type(elsovaltozo))
+elsoValtozo= 12
 
-elsovaltozo = "változó"
-print(type(elsovaltozo))
+kiir = "A változó értéke. " + str (elsoValtozo)
 
-elsovaltozo = "12.35"
-print(type(elsovaltozo))
-
-elsovaltozo = True
-print(type(elsovaltozo))
-
-elsovaltozo = [1, 2]
-print(type(elsovaltozo))
+print(kiir)
